@@ -1,0 +1,74 @@
+/* General HTML elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: none;
+	max-width: 100%;
+	height:auto !important;
+}
+a {
+    outline: none;
+    color: #555453;
+}
+a:link,
+a:visited {
+    text-decoration: none;
+}
+a:hover, a.active{
+	color: #00d0dd;
+}
+fieldset {
+    border: none;
+    background: none;
+    margin: 0px;
+    padding: 0px;
+}
+fieldset legend {
+    display: none;
+}
+ul{
+	list-style:none;
+}
+select {
+	display: block;
+	padding-left: 10px;
+}
+/* for modern browser */
+input[type="image"],
+input[type="submit"] {
+    outline: none;
+}
+/* input[checkbox] & input[radio] */
+input {
+    vertical-align: baseline;
+    margin: -1px -2px;
+}
+/* Firefox */
+html>/**/body input {
+    vertical-align: text-bottom;
+    margin: 0px;
+}
+.Wrapper {
+    overflow: visible;
+    height: 1%;
+}
+html>body .Wrapper {
+    overflow: hidden;
+    height: auto;
+}
+object,
+embed {
+    outline: none;
+}
+.fl{ float:left;}
+.fr{float:right !important;}
+.cl{clear:both;}
+.updating{
+	font-weight:bold; text-align:center; padding:30px; margin:0 auto; height:214px;
+}
+.no-margin-right {
+	margin-right:0 !important;
+}
